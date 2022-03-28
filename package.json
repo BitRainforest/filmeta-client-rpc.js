@@ -1,6 +1,6 @@
 {
-  "name": "@bit-rainforest/filmeta-client-rpc.js",
-  "version": "0.0.0",
+  "name": "@bitrainforest/filmeta-client-rpc.js",
+  "version": "0.1.0",
   "description": "FilMeta 2.0 RPC api js client.",
   "main": "src/index.js",
   "types": "src/index.d.ts",

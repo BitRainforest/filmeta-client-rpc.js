@@ -1,4 +1,4 @@
-# @bit-rainforest/lotus-client-rpc.js
+# @bitrainforest/lotus-client-rpc.js
 
 ![standard-readme compliant](https://img.shields.io/badge/js--lotus--client--rpc-fork-yellow.svg?style=flat-square)
 ![standard-readme compliant](https://img.shields.io/badge/typescript-v4.5.2-green.svg?style=flat-square)
@@ -27,25 +27,25 @@ FilMeta 2.0 RPC api js client
 ### CNPM
 
 ```
-cnpm i @bit-rainforest/lotus-client-rpc.js --save
+cnpm i @bitrainforest/lotus-client-rpc.js --save
 ```
 
 ### NPM
 
 ```
-npm i @bit-rainforest/lotus-client-rpc.js --save
+npm i @bitrainforest/lotus-client-rpc.js --save
 ```
 
 ### YARN
 
 ```
-yarn add @bit-rainforest/lotus-client-rpc.js
+yarn add @bitrainforest/lotus-client-rpc.js
 ```
 
 ### PNPM
 
 ```
-pnpm add @bit-rainforest/lotus-client-rpc.js
+pnpm add @bitrainforest/lotus-client-rpc.js
 ```
 
 ## Usage
@@ -80,7 +80,7 @@ pnpm add @bit-rainforest/lotus-client-rpc.js
 #### 初始化
 
 ```typescript
-import { Protocol, ProtocolType, JsonRpcV2Error } from "@bit-rainforest/filmeta-client-protocols.js";
+import { Protocol, ProtocolType, JsonRpcV2Error } from "@bitrainforest/filmeta-client-protocols.js";
 import { LotusRPC, schema,  } from "../src";
 
 const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IiIsImVtYWlsIjoiIiwicGVybWlzc2lvbnMiOlsicmVhZCIsIndyaXRlIiwiY2x1c3RlciIsInNpZ24iLCJhZG1pbiJdLCJleHBpcmVkX2F0IjoiMDAwMS0wMS0wMVQwMDowMDowMFoifQ.1GojU4WIhgQamPmwGA7szeHcJWlWYP5PE8BV-KdnW1Y"
@@ -134,8 +134,8 @@ chainRpc.destroy()
 ### Javascript
 
 ```javascript
-const { Protocol, ProtocolType } = require("@bit-rainforest/filmeta-client-protocols.js") ;
-const { LotusRPC, schema }  = require("@bit-rainforest/filmeta-client-rpc.js");
+const { Protocol, ProtocolType } = require("@bitrainforest/filmeta-client-protocols.js") ;
+const { LotusRPC, schema }  = require("@bitrainforest/filmeta-client-rpc.js");
 
 const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IiIsImVtYWlsIjoiIiwicGVybWlzc2lvbnMiOlsicmVhZCIsIndyaXRlIiwiY2x1c3RlciIsInNpZ24iLCJhZG1pbiJdLCJleHBpcmVkX2F0IjoiMDAwMS0wMS0wMVQwMDowMDowMFoifQ.1GojU4WIhgQamPmwGA7szeHcJWlWYP5PE8BV-KdnW1Y"
 
@@ -156,8 +156,8 @@ chainRpc.chainHead().then(
 ### Typescript
 
 ```typescript
-import { Protocol, ProtocolType, JsonRpcV2Error } from "@bit-rainforest/filmeta-client-protocols.js";
-import { LotusRPC, schema,  } from "@bit-rainforest/filmeta-client-rpc.js";
+import { Protocol, ProtocolType, JsonRpcV2Error } from "@bitrainforest/filmeta-client-protocols.js";
+import { LotusRPC, schema,  } from "@bitrainforest/filmeta-client-rpc.js";
 
 const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IiIsImVtYWlsIjoiIiwicGVybWlzc2lvbnMiOlsicmVhZCIsIndyaXRlIiwiY2x1c3RlciIsInNpZ24iLCJhZG1pbiJdLCJleHBpcmVkX2F0IjoiMDAwMS0wMS0wMVQwMDowMDowMFoifQ.1GojU4WIhgQamPmwGA7szeHcJWlWYP5PE8BV-KdnW1Y"
 
